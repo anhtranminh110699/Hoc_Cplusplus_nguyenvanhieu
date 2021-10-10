@@ -50,4 +50,9 @@ int main()
 	cout << "c && d >0 ? " << (c>0 && d>0) << endl;
 	cout << "c || d >0 ? " << (c>0 || d>0) << endl;
 	cout << endl;
+
+	bool is_success = true;
+	cout << "!is_success = " << (!is_success) << " \n";
+
+	return 0;
 }
